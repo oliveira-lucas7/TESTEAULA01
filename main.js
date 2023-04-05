@@ -18,8 +18,8 @@ function shownome()
 
 function mostraResultado()
 {
-    let nun1 = document.getElementById("numero1").value;
-    let nun2 = document.getElementById("numero2").value;
-    let nun3 = parseFloat(nun1)+ parseFloat(nun2);
+    let num1 = document.getElementById("numero1").value;
+    let num2 = document.getElementById("numero2").value;
+    let num3 = parseFloat(num1)+ parseFloat(num2);
     document.getElementById("resultado").innerHTML = "resultado" + num3;
 }
