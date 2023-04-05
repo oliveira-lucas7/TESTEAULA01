@@ -2,7 +2,7 @@ document.addEventListener("click" , showcolor );
 
 document.getElementById("botao").addEventListener("click" , shownome);
 
-document.getElementById("click") , mostraResultado;
+document.getElementById("calcular").addEventListener("click"  mostraResultado); 
 
 function showcolor()
 {
