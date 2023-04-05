@@ -35,7 +35,7 @@ function mostraResultadosub()
     let num4 = document.getElementById("numero4").value;
     let num5 = document.getElementById("numero5").value;
     let num6 = parseFloat(num4) - parseFloat(num5);
-    document.getElementById("resultado").innerHTML = " = " - num6;
+    document.getElementById("subtrair").innerHTML = " = " - num6;
 }
 
 function mostraResultadomul()
@@ -43,7 +43,7 @@ function mostraResultadomul()
     let num7 = document.getElementById("numero7").value;
     let num8 = document.getElementById("numero8").value;
     let num9 = parseFloat(num7) * parseFloat(num8);
-    document.getElementById("resultado").innerHTML = " = " * num9;
+    document.getElementById("multiplicar").innerHTML = " = " * num9;
 }
 
 function mostraResultadodiv()
@@ -51,5 +51,5 @@ function mostraResultadodiv()
     let num10 = document.getElementById("numero10").value;
     let num11 = document.getElementById("numero11").value;
     let num12 = parseFloat(num10) / parseFloat(num11);
-    document.getElementById("resultado").innerHTML = " = " / num12;
+    document.getElementById("dividir").innerHTML = " = " / num12;
 }
