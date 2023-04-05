@@ -20,6 +20,6 @@ function mostraResultado()
 {
     let nun1 = document.getElementById("numero1").value;
     let nun2 = document.getElementById("numero2").value;
-    let nun3 = parseFloat (nun1) + parseFloat(nun2);
+    let nun3 = parseFloat(nun1)+ parseFloat(nun2);
     document.getElementById("resultado").innerHTML = "resultado" + num3;
 }
