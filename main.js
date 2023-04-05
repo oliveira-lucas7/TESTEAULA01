@@ -2,6 +2,8 @@ document.addEventListener("click" , showcolor );
 
 document.getElementById("botao").addEventListener("click" , shownome);
 
+document.getElementById("calcular") , mostraResultado;
+
 function showcolor()
 {
     document.body.style.backgroundColor = "red";
