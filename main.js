@@ -28,6 +28,7 @@ function mostraResultado()
     let num2 = document.getElementById("numero2").value;
     let num3 = parseFloat(num1) + parseFloat(num2);
     document.getElementById("resultado").innerHTML = " = " + num3;
+    document.getElementById("number").value = "";
 }
 
 function mostraResultadosub()
