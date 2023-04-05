@@ -4,6 +4,12 @@ document.getElementById("botao").addEventListener("click" , shownome);
 
 document.getElementById("calcular").addEventListener("click" , mostraResultado); 
 
+document.getElementById("calcular-sub").addEventListener("click" , mostraResultadosub); 
+
+document.getElementById("calcular-mul").addEventListener("click" , mostraResultadomul); 
+
+document.getElementById("calcular-div").addEventListener("click" , mostraResultadodiv); 
+
 function showcolor()
 {
     document.body.style.backgroundColor = "red";
@@ -22,4 +28,12 @@ function mostraResultado()
     let num2 = document.getElementById("numero2").value;
     let num3 = parseFloat(num1) + parseFloat(num2);
     document.getElementById("resultado").innerHTML = " = " + num3;
+}
+
+function mostraResultadosub()
+{
+    let num4 = document.getElementById("numero4").value;
+    let num5 = document.getElementById("numero5").value;
+    let num6 = parseFloat(num4) - parseFloat(num5);
+    document.getElementById("resultado").innerHTML = " = " - num3;
 }
