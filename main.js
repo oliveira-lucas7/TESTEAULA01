@@ -45,3 +45,11 @@ function mostraResultadomul()
     let num9 = parseFloat(num7) * parseFloat(num8);
     document.getElementById("resultado").innerHTML = " = " * num9;
 }
+
+function mostraResultadodiv()
+{
+    let num10 = document.getElementById("numero10").value;
+    let num11 = document.getElementById("numero11").value;
+    let num12 = parseFloat(num10) / parseFloat(num11);
+    document.getElementById("resultado").innerHTML = " = " / num12;
+}
