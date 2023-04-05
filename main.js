@@ -1,0 +1,1 @@
+alert("Seja bem bindo ao GitHub Pages");
