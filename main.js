@@ -43,5 +43,5 @@ function mostraResultadomul()
     let num7 = document.getElementById("numero7").value;
     let num8 = document.getElementById("numero8").value;
     let num9 = parseFloat(num7) * parseFloat(num8);
-    document.getElementById("resultado").innerHTML = " = " - num9;
+    document.getElementById("resultado").innerHTML = " = " * num9;
 }
