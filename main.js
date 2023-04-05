@@ -35,5 +35,13 @@ function mostraResultadosub()
     let num4 = document.getElementById("numero4").value;
     let num5 = document.getElementById("numero5").value;
     let num6 = parseFloat(num4) - parseFloat(num5);
-    document.getElementById("resultado").innerHTML = " = " - num3;
+    document.getElementById("resultado").innerHTML = " = " - num6;
+}
+
+function mostraResultadomul()
+{
+    let num7 = document.getElementById("numero7").value;
+    let num8 = document.getElementById("numero8").value;
+    let num9 = parseFloat(num7) * parseFloat(num8);
+    document.getElementById("resultado").innerHTML = " = " - num9;
 }
